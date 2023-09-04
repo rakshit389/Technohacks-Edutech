@@ -1,0 +1,93 @@
+
+.navbar 
+{
+    background: url("../assets/background_theme.gif");
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between  ;
+    height : 3.5rem;
+    position: sticky ;
+    top: 0;
+    z-index: 1;
+  
+}
+.first
+{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin: 1.2rem 1.2rem 1rem 1.2rem ;
+    align-items: center ;
+}
+.icons
+{
+    color: white ;
+    font-size: 2rem ;
+    margin-right: 1rem;
+    border-radius: 50%;
+    align-items: start;
+}
+.second
+{
+    margin: 1.2rem 1.2rem 1.5rem 1.2rem ;
+    align-items: center ;
+    
+}
+.second a 
+{
+    margin-right: 1.2rem ;
+    color: white ;
+    font-family: Georgia;
+    font-size: 1.5rem ;
+    text-decoration: none ;
+    
+}
+ 
+.navbar a:hover 
+{
+    border-bottom:1px solid white ;
+}
+
+#opennav
+{
+    font-size: 2rem;
+    color : white ;
+    align-items: end ;
+    display: none;
+    
+}
+
+ 
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 800px) {
+      .navbar
+      {
+        display: flex;
+        flex-direction: column ;
+        transition: 2s;
+        overflow: hidden;
+        background: none ;
+        background-color: black ;
+        
+      }
+      #opennav
+      {
+        display: block;
+      }
+      .second
+      {
+        display: flex ;
+        flex-direction: column;
+        align-items: start;
+        opacity: 0.8;
+      }
+      .second a
+      {
+         padding-bottom: 0.7rem;
+      }
+
+
+    
+}
+  
+ 

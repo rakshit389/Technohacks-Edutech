@@ -1,0 +1,41 @@
+ 
+.skills
+{
+    background-color:  rgb(13, 14, 13);
+    color: white;
+    font-family: Luminari ;
+    min-height: 43rem;
+    border: 1px solid black ;
+    outline: 0;
+}
+
+.skills h1
+{
+    text-align: center;
+    font-size: 2.5rem ;
+  
+}
+.skills_icon
+{
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.skills_icon div 
+{
+    padding-right: 3rem;
+    text-align: center ;
+}
+.skills_icon img
+{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50% ;
+    border: 1px solid white ;
+}
+.skills_icon img:hover
+{
+    border: 3px solid white ;
+}

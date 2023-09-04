@@ -1,0 +1,23 @@
+.intro
+{
+    min-width: 100%; ;
+    min-height: 41rem ;
+    color: white ;
+    font-family: Luminari ;
+    font-size: 1.5rem;
+    text-align: center ;
+    top: auto ;
+    background-image: url("../assets/background_theme.gif");
+    border: 1px solid black ;
+}
+.intro h2
+{
+    padding: 10rem 0rem 0rem 0rem;
+    color: bisque;
+}
+.intro h3
+{
+    padding: 1rem 0rem 1rem 0rem;
+
+}
+ 

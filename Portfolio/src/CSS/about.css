@@ -1,0 +1,44 @@
+.about
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid red;
+}
+.aboutme
+{
+    padding: 6rem 10rem 8rem 10rem;
+    font-family: Luminari ;
+    text-align: center;
+}
+.aboutme h1
+{
+    font-size: 2.5rem;
+}
+.aboutme p
+{
+    font-size: 1.5rem;
+}
+.aboutme button
+{
+    width: 10rem; ;
+    height: 5rem ;
+    background-color: whitesmoke ;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: Luminari ;
+}
+.aboutme button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px)
+{
+    .about
+    {
+        top: 0;
+    }
+}
