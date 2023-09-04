@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  margin: 0 32px;
+  padding: 40px 150px;
+}
+
+.navbar > a {
+  font-family: "Open Sans", sans-serif;
+  padding: 4px 10px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.home-container {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./assests/backround.jpg);
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+  border-bottom: 8px solid #222;
+  z-index: 1;
+  position: relative;
+}
+
+.email-form-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.email-form-title3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  opacity: 70%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.home-subcontainer {
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 20px; */
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100vw;
+}
+
+.tv-container img {
+  height: 400px;
+  z-index: 1;
+}
+
+.tv-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv-container video {
+  height: 220px;
+  position: absolute;
+}
+
+.card-title {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+.card-subtitle {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.get-started {
+  height: 58px;
+  display: flex;
+}
+
+.get-started input {
+  height: 100%;
+  width: 450px;
+  padding-left: 10px;
+}
+
+.get-started button {
+  background: red;
+  color: white;
+  font-size: 1.625rem;
+  height: 100%;
+  border: none;
+  padding: 0% 26px;
+  border-left: 1px solid red;
+}
+
+.info {
+  font-family: "Open Sans", sans-serif;
+  background: black;
+  color: white;
+  display: flex;
+  padding: 40px 120px;
+  border-bottom: 8px solid #222;
+  width: 100vw;
+}
+
+.sub-info {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.footer-item {
+  margin: 0 47.5px;
+  font-family: "Open Sans", sans-serif;
+  width: 100vw;
+  padding: 10px 90px;
+}
+.footer-item p,
+a {
+  color: #d1d1d1;
+  font-size: medium;
+}
+footer p {
+  color: #d1d1d1;
+  font-size: medium;
+}
+.footer-top {
+  margin-bottom: 30px;
+}
+footer {
+  background: black;
+  padding-left: 10%;
+  font-size: smaller;
+}
+
+footer ul li {
+  color: #d1d1d1;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-links {
+  list-style-type: none;
+  columns: 3;
+  padding-left: 0px;
+}
+.lang {
+  height: 53px;
+  width: 142px;
+  color: #d1d1d1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #d1d1d1;
+  padding: 0% 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lang select {
+  margin-left: 10px;
+  border: none;
+  background: black;
+  color: #d1d1d1;
+}
